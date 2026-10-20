@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jan Sahayak</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="top">
+    <div>
+      <h1 data-i18n="title">जन सहायक</h1>
+      <p class="sub" data-i18n="subtitle"></p>
+    </div>
+    <button type="button" id="langBtn" class="btn ghost" aria-label="Language"></button>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2 data-i18n="formTitle"></h2>
+      <form id="checkForm" novalidate>
+        <div class="grid">
+          <label class="field">
+            <span data-i18n="age"></span>
+            <input type="number" id="age" min="0" max="120" inputmode="numeric" required>
+          </label>
+
+          <label class="field">
+            <span data-i18n="state"></span>
+            <input type="text" id="state" list="stateList" autocomplete="off" required>
+            <datalist id="stateList">
+              <option value="Andhra Pradesh"><option value="Arunachal Pradesh"><option value="Assam">
+              <option value="Bihar"><option value="Chhattisgarh"><option value="Goa">
+              <option value="Gujarat"><option value="Haryana"><option value="Himachal Pradesh">
+              <option value="Jharkhand"><option value="Karnataka"><option value="Kerala">
+              <option value="Madhya Pradesh"><option value="Maharashtra"><option value="Manipur">
+              <option value="Meghalaya"><option value="Mizoram"><option value="Nagaland">
+              <option value="Odisha"><option value="Punjab"><option value="Rajasthan">
+              <option value="Sikkim"><option value="Tamil Nadu"><option value="Telangana">
+              <option value="Tripura"><option value="Uttar Pradesh"><option value="Uttarakhand">
+              <option value="West Bengal"><option value="Delhi"><option value="Jammu and Kashmir">
+              <option value="Ladakh"><option value="Chandigarh"><option value="Puducherry">
+            </datalist>
+          </label>
+
+          <label class="field">
+            <span data-i18n="occupation"></span>
+            <select id="occupation" required>
+              <option value="" data-i18n="choose"></option>
+              <option value="farmer" data-i18n="occ_farmer"></option>
+              <option value="student" data-i18n="occ_student"></option>
+              <option value="unorganised worker" data-i18n="occ_worker"></option>
+              <option value="small business" data-i18n="occ_business"></option>
+              <option value="shopkeeper" data-i18n="occ_shop"></option>
+              <option value="self employed" data-i18n="occ_self"></option>
+              <option value="other" data-i18n="occ_other"></option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span data-i18n="income"></span>
+            <input type="number" id="income" min="0" inputmode="numeric" required>
+          </label>
+
+          <label class="field">
+            <span data-i18n="gender"></span>
+            <select id="gender" required>
+              <option value="" data-i18n="choose"></option>
+              <option value="male" data-i18n="male"></option>
+              <option value="female" data-i18n="female"></option>
+              <option value="other" data-i18n="genderOther"></option>
+            </select>
+          </label>
+        </div>
+
+        <button type="submit" id="checkBtn" class="btn primary" data-i18n="submit"></button>
+      </form>
+      <p id="checkError" class="msg error" role="alert" hidden></p>
+    </section>
+
+    <section id="results" aria-live="polite"></section>
+
+    <section class="panel purple">
+      <button type="button" id="draftToggle" class="btn secondary" data-i18n="draftBtn"></button>
+
+      <form id="draftForm" novalidate hidden>
+        <h2 data-i18n="draftTitle"></h2>
+        <div class="grid">
+          <label class="field">
+            <span data-i18n="dtype"></span>
+            <select id="dtype">
+              <option value="rti" data-i18n="rti"></option>
+              <option value="complaint" data-i18n="complaint"></option>
+            </select>
+          </label>
+          <label class="field">
+            <span data-i18n="name"></span>
+            <input type="text" id="dname" autocomplete="name">
+          </label>
+          <label class="field">
+            <span data-i18n="address"></span>
+            <input type="text" id="daddress" autocomplete="street-address">
+          </label>
+          <label class="field">
+            <span data-i18n="state"></span>
+            <input type="text" id="dstate" list="stateList" autocomplete="off">
+          </label>
+          <label class="field">
+            <span data-i18n="office"></span>
+            <input type="text" id="doffice">
+          </label>
+          <label class="field">
+            <span data-i18n="subject"></span>
+            <input type="text" id="dsubject">
+          </label>
+        </div>
+        <label class="field">
+          <span data-i18n="details"></span>
+          <textarea id="ddetails" rows="5"></textarea>
+        </label>
+        <button type="submit" id="draftBtn" class="btn primary" data-i18n="makeDraft"></button>
+        <p id="draftError" class="msg error" role="alert" hidden></p>
+
+        <div id="letterBox" hidden>
+          <label class="field">
+            <span data-i18n="letter"></span>
+            <textarea id="letter" rows="16" readonly></textarea>
+          </label>
+          <button type="button" id="copyBtn" class="btn ghost" data-i18n="copy"></button>
+        </div>
+      </form>
+    </section>
+
+    <p class="note" data-i18n="privacy"></p>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
