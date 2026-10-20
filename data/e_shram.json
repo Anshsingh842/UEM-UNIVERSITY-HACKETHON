@@ -1,0 +1,20 @@
+{
+  "name": "e-Shram",
+  "benefit_amount": "₹2 lakh ka accident insurance (verify karo)",
+  "eligibility": {
+    "min_age": 16,
+    "max_age": 59,
+    "occupation": [
+      "unorganised worker"
+    ],
+    "max_income": "verify karo",
+    "gender": null
+  },
+  "documents": [
+    "Aadhaar",
+    "Aadhaar se linked mobile number",
+    "Bank account details"
+  ],
+  "official_url": "https://eshram.gov.in",
+  "last_verified": "verify karo"
+}

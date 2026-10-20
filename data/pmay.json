@@ -1,0 +1,19 @@
+{
+  "name": "PMAY (Pradhan Mantri Awas Yojana)",
+  "benefit_amount": "verify karo",
+  "eligibility": {
+    "min_age": "verify karo",
+    "max_age": "verify karo",
+    "occupation": null,
+    "max_income": "verify karo",
+    "gender": null
+  },
+  "documents": [
+    "Aadhaar",
+    "Income proof",
+    "Bank account details",
+    "Address proof"
+  ],
+  "official_url": "https://pmaymis.gov.in",
+  "last_verified": "verify karo"
+}

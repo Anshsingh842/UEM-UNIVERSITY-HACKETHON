@@ -1,0 +1,18 @@
+{
+  "name": "Sukanya Samriddhi Yojana",
+  "benefit_amount": "Bachchi ke naam savings account; byaj dar verify karo",
+  "eligibility": {
+    "min_age": 0,
+    "max_age": 10,
+    "occupation": null,
+    "max_income": null,
+    "gender": "female"
+  },
+  "documents": [
+    "Bachchi ka birth certificate",
+    "Parent/guardian ka ID proof",
+    "Address proof"
+  ],
+  "official_url": "https://www.nsiindia.gov.in",
+  "last_verified": "verify karo"
+}

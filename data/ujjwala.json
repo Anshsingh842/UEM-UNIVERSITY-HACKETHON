@@ -1,0 +1,19 @@
+{
+  "name": "PM Ujjwala Yojana",
+  "benefit_amount": "Free LPG connection; sahayata raashi verify karo",
+  "eligibility": {
+    "min_age": 18,
+    "max_age": null,
+    "occupation": null,
+    "max_income": "verify karo",
+    "gender": "female"
+  },
+  "documents": [
+    "Aadhaar",
+    "BPL ration card / SECC praman",
+    "Bank account details",
+    "KYC form"
+  ],
+  "official_url": "https://www.pmuy.gov.in",
+  "last_verified": "verify karo"
+}

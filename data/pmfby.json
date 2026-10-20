@@ -1,0 +1,20 @@
+{
+  "name": "PMFBY (Pradhan Mantri Fasal Bima Yojana)",
+  "benefit_amount": "Fasal kharab hone par bima raashi; raashi fasal par depend karti hai (verify karo)",
+  "eligibility": {
+    "min_age": null,
+    "max_age": null,
+    "occupation": [
+      "farmer"
+    ],
+    "max_income": null,
+    "gender": null
+  },
+  "documents": [
+    "Aadhaar",
+    "Bank account details",
+    "Zameen ke kagaz / bone ka praman"
+  ],
+  "official_url": "https://pmfby.gov.in",
+  "last_verified": "verify karo"
+}

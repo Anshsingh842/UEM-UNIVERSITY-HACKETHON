@@ -1,0 +1,20 @@
+{
+  "name": "PM-KISAN",
+  "benefit_amount": "₹6,000 per saal, 3 kisht mein (₹2,000 each)",
+  "eligibility": {
+    "min_age": null,
+    "max_age": null,
+    "occupation": [
+      "farmer"
+    ],
+    "max_income": null,
+    "gender": null
+  },
+  "documents": [
+    "Aadhaar",
+    "Zameen ke kagaz (land records)",
+    "Bank account details"
+  ],
+  "official_url": "https://pmkisan.gov.in",
+  "last_verified": "verify karo"
+}

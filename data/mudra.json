@@ -1,0 +1,24 @@
+{
+  "name": "PM Mudra Yojana",
+  "benefit_amount": "Loan: Shishu ₹50,000 tak, Kishore ₹50,000-5 lakh, Tarun ₹5-10 lakh (naye badlav verify karo)",
+  "eligibility": {
+    "min_age": "verify karo",
+    "max_age": "verify karo",
+    "occupation": [
+      "small business",
+      "shopkeeper",
+      "self employed"
+    ],
+    "max_income": null,
+    "gender": null
+  },
+  "documents": [
+    "Aadhaar",
+    "PAN",
+    "Business plan / proof",
+    "Address proof",
+    "Bank statement"
+  ],
+  "official_url": "https://www.mudra.org.in",
+  "last_verified": "verify karo"
+}

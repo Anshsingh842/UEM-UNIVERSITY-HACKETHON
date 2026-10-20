@@ -1,0 +1,18 @@
+{
+  "name": "Ayushman Bharat PM-JAY",
+  "benefit_amount": "₹5 lakh per family per saal tak ka ilaaj",
+  "eligibility": {
+    "min_age": null,
+    "max_age": null,
+    "occupation": "verify karo",
+    "max_income": "verify karo",
+    "gender": null
+  },
+  "documents": [
+    "Aadhaar",
+    "Ration card",
+    "Family details / SECC verification"
+  ],
+  "official_url": "https://pmjay.gov.in",
+  "last_verified": "verify karo"
+}

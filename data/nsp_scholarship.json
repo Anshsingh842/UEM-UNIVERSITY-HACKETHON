@@ -1,0 +1,21 @@
+{
+  "name": "NSP Scholarship (National Scholarship Portal)",
+  "benefit_amount": "verify karo",
+  "eligibility": {
+    "min_age": "verify karo",
+    "max_age": "verify karo",
+    "occupation": [
+      "student"
+    ],
+    "max_income": "verify karo",
+    "gender": "verify karo"
+  },
+  "documents": [
+    "Aadhaar",
+    "Pichhli class ki marksheet",
+    "Income certificate",
+    "Bank account details"
+  ],
+  "official_url": "https://scholarships.gov.in",
+  "last_verified": "verify karo"
+}
